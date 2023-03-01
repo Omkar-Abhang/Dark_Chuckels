@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Dark_Chuckels/static/css/main.789dfcfd.css",
+    "main.js": "/Dark_Chuckels/static/js/main.b63c4a06.js",
+    "static/media/email.svg": "/Dark_Chuckels/static/media/email.f7ead3da3d11a1ca84ba61d03199a9cf.svg",
+    "index.html": "/Dark_Chuckels/index.html",
+    "static/media/instagram.svg": "/Dark_Chuckels/static/media/instagram.b7818ac13fa6fc2027af017f3416732c.svg",
+    "static/media/menu.svg": "/Dark_Chuckels/static/media/menu.4a292e6b3238b9b27079ea111131261e.svg",
+    "main.789dfcfd.css.map": "/Dark_Chuckels/static/css/main.789dfcfd.css.map",
+    "main.b63c4a06.js.map": "/Dark_Chuckels/static/js/main.b63c4a06.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.789dfcfd.css",
+    "static/js/main.b63c4a06.js"
+  ]
+}
