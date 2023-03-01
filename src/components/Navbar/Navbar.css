@@ -1,0 +1,138 @@
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 1rem;
+  position: relative;
+  top: 0;
+  z-index: 999;
+  
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 1rem;
+}
+
+.logo-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
+.logo-text span {
+  font-weight: bold;
+}
+
+.logo-text small {
+  font-size: 0.8rem;
+  color: #777;
+}
+
+.menu-toggle {
+  display: none;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  margin: 0 1rem;
+  list-style: none;
+}
+
+.menu li:last-child {
+  margin-right: 0;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #000;
+  font-size: 1.2rem;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.nav-link:hover {
+  background-color: #2e2e2e;
+  color: #fff;
+}
+
+@media only screen and (max-width: 768px) {
+  .logo {
+    height: 40px;
+    width: 40px;
+    margin-right: 0.5rem;
+  }
+
+  .logo-text {
+    font-size: 1.2rem;
+  }
+
+  .menu-toggle {
+    display: block;
+    background: none;
+    border: none;
+    font-size: 1rem;
+    color: #000;
+    cursor: pointer;
+    margin-left: auto;
+  } 
+
+  .menu-toggle img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .menu {
+    display: none;
+    position: absolute;
+    top: 4.5rem;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    flex-direction: column;
+    z-index: 1;
+  }
+
+  .menu li {
+    margin: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .menu li:first-child {
+    border-bottom: 1px solid #ccc;
+  }
+
+  .menu.show {
+    display: flex;
+    /* background-color: #f0f0f0; */
+    background-color: transparent;
+    width: 15rem;
+    left: 7rem;
+  }
+
+  .nav-link {
+    display: block;
+    padding: 1rem;
+    font-size: 1.2rem;
+  }
+}
